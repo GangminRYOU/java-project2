@@ -29,7 +29,9 @@ class InputTwoVarSum{
     }
     void twoNumbers(){
         System.out.println("두개의 숫자를 입력하세요.");
-        System.out.println("첫번쨰 숫자: " + new Scanner(System.in).nextInt());
-        System.out.println("두번째 숫자: " + new Scanner(System.in).nextInt());
+        System.out.print("첫번쨰 숫자: ");
+        System.out.println("첫번쨰 숫자: " + new Scanner(System.in).nextInt() + "입니다.");
+        System.out.println("두번째 숫자: ");
+        System.out.println("두번째 숫자: " + new Scanner(System.in).nextInt() + "입니다.");
     }
 }

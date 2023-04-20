@@ -7,13 +7,17 @@ public class PrintExTest {
     }
 
     static void multiply(){
-        System.out.printf("%d * %d = %d", 3, 3, 3*3);
+        System.out.printf("%d * %d = %d\n", 3, 3, 3*3);
     }
 
+    static void printData(){
+        System.out.printf("%d-%02d-%02d\n", 2014, 02, 14);
+    }
 
     public static void main(String[] args) {
        PrintExTest.printfTest();
        PrintExTest.multiply();
+       PrintExTest.printData();
     }
 }
 

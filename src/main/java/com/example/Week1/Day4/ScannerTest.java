@@ -10,6 +10,13 @@ public class ScannerTest {
     }
 }
 
+class Test2{
+    public static void main(String[] args) {
+        InputTwoVarSum inputTwoVarSum = new InputTwoVarSum();
+        inputTwoVarSum.twoNumbers();
+    }
+}
+
 class InputTwoVarSum{
     void inputSum(){
         Scanner sc = new Scanner(System.in);
@@ -19,5 +26,10 @@ class InputTwoVarSum{
     void catString(){
         Scanner sc = new Scanner(System.in);
         System.out.println(sc.next() + sc.next());
+    }
+    void twoNumbers(){
+        System.out.println("두개의 숫자를 입력하세요.");
+        System.out.println("첫번쨰 숫자: " + new Scanner(System.in).nextInt());
+        System.out.println("두번째 숫자: " + new Scanner(System.in).nextInt());
     }
 }
